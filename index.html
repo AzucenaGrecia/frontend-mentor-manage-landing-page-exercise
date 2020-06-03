@@ -11,75 +11,85 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="styles.css">
+
     <title>Frontend Mentor | Manage landing page</title>
   </head>
   <body>
     <header>
       <img src="./images/logo.svg" alt="Manage logo" />
       <nav>
-        <ul>
-          <li>Pricing</li>
-          <li>Product</li>
-          <li>About Us</li>
-          <li>Careers</li>
-          <li>Community</li>
+        <ul class="navbar-links">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Community</a></li>
         </ul>
       </nav>
-      <a href="#">Get Started</a>
+      <a class="get-started" href="#">Get Started</a>
     </header>
 
     <main>
-      <section>
-        <section>
-          <h1>Bring everyone together to build better products.</h1>
-          <p>
+      <section class="call-to-action">
+        <section class="cta-left">
+          <h1 class="cta-title">Bring everyone together to build better products.</h1>
+          <p class="text-description cta-subtitle">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <a href="#">Get Started</a>
+          <div class="get-started-container">
+            <a class="get-started" href="#">Get Started</a>
+          </div>
         </section>
-        <section>
+        <section class="cta-right">
           <img src="./images/illustration-intro.svg" alt="Statistics charts" />
         </section>
       </section>
 
-      <section>
-        <section>
+      <section class="product-description">
+        <section class="different">
           <h2>What’s different about Manage?</h2>
-          <p>
+          <p class="text-description cta-subtitle">
             Manage provides all the functionality your team needs, without the
             complexity. Our software is tailor-made for modern digital product
             teams.
           </p>
         </section>
-        <section>
+        <section class="items">
           <ol>
             <li>
-              <h3>Track company-wide progress</h3>
-              <p>
-                See how your day-to-day tasks fit into the wider vision. Go from
-                tracking progress at the milestone level all the way done to the
-                smallest of details. Never lose sight of the bigger picture
-                again.
-              </p>
+              <div>
+                <h3 class="item-heading">Track company-wide progress</h3>
+                <p class="text-description">
+                  See how your day-to-day tasks fit into the wider vision. Go from
+                  tracking progress at the milestone level all the way done to the
+                  smallest of details. Never lose sight of the bigger picture
+                  again.
+                </p>
+              </div>
             </li>
 
             <li>
-              <h3>Advanced built-in reports</h3>
-              <p>
-                Set internal delivery estimates and track progress toward
-                company goals. Our customisable dashboard helps you build out
-                the reports you need to keep key stakeholders informed.
-              </p>
+              <div>
+                <h3 class="item-heading">Advanced built-in reports</h3>
+                <p class="text-description">
+                  Set internal delivery estimates and track progress toward
+                  company goals. Our customisable dashboard helps you build out
+                  the reports you need to keep key stakeholders informed.
+                </p>
+              </div>
             </li>
 
             <li>
-              <h3>Everything you need in one place</h3>
-              <p>
-                Stop jumping from one service to another to communicate, store
-                files, track tasks and share documents. Manage offers an
-                all-in-one team productivity solution.
-              </p>
+              <div>
+                <h3 class="item-heading">Everything you need in one place</h3>
+                <p class="text-description">
+                  Stop jumping from one service to another to communicate, store
+                  files, track tasks and share documents. Manage offers an
+                  all-in-one team productivity solution.
+                </p>
+              </div>
             </li>
           </ol>
         </section>
