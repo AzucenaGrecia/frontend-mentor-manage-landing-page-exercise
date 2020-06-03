@@ -45,7 +45,7 @@ header {
 .get-started {
   background-color: var(--bright-red);
   color: var(--very-light-gray);
-  font-size: 14px;
+  font-size: 16px; /* aqui cambie de 14 px a 16 px */
   /* display: block; */
   display: inline-block;
   /* align-items: center; */
